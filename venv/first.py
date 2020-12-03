@@ -18,8 +18,6 @@ def main():
 
     running = True
     while running:
-        # внутри игрового цикла ещё один цикл
-        # приема и обработки сообщений
         for event in pygame.event.get():
             # при закрытии окна
             if event.type == pygame.QUIT:
@@ -35,3 +33,4 @@ def main():
 
 if __name__ == '__main__':
     sys.exit(main())
+print('')
